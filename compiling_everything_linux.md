@@ -41,8 +41,9 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
         - `client_release`
         - `client_debug`
     - To build the tools and master server in release mode use the following arguments:
-    - You may specify the architecture using `arch`, e.g. `arch=X86` or `arch=x64`.
         - `conf=release tools masterserver`
+    - You may specify the architecture using `arch`, e.g. `arch=X86` or `arch=x64`.
+        
 5. The compiled game is located at `/teeworldsSource/build/..`
 
 
