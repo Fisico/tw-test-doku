@@ -1,6 +1,6 @@
 # Compiling Teeworlds on Linux
 
-**IMPORTANT NOTE:** SDL and Freetype libs are not shipped with Teeworlds 0.7.x. You must download them separately and place them in the other\ folder.
+**IMPORTANT NOTE:** SDL and Freetype libs are not shipped with Teeworlds 0.7.x. You must download them separately.
 
 **Q: What is BAM?**
 
