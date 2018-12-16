@@ -16,8 +16,8 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 1. Launch `make_win32_msvc.bat` script to compile bam.
 
 
-# Windows x64 Setup
-
+# Windows x64 
+#### Setup
 1. Download and unzip bam to \teeworldsSource\bam
 2. Download and install [Python 3.x](https://www.python.org/download/)
 3. Download and unzip [Teeworlds](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
@@ -29,8 +29,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - Copy "freetype.lib" from \teeworldsSource\other\freetype\win64 in the root directory(\teeworldsSource)
 
 
-#### Compiling Teeworlds x64
-
+#### Compiling
 1. Run the `x64 Native Tools Command Prompt` (64Bit) from the start menu.
 2. cd "\teeworldsSource" 
     - Changes to the teeworlds source directory
@@ -51,8 +50,8 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 5. The compiled game is located at \teeworldsSource\build\unknown\...
 
 
-# Windows x86 Setup
-
+# Windows x86 
+#### Setup
 1. Download and unzip bam to \teeworldsSource\bam
 2. Download and install [Python 3.x](https://www.python.org/download/)
 3. Download and unzip [Teeworlds](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
@@ -64,8 +63,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - Copy "freetype.lib" from \teeworldsSource\other\freetype\win32 in the root directory(\teeworldsSource)
 
 
-#### Compiling Teeworlds x86
-
+#### Compiling
 1. Run the `x86 Native Tools Command Prompt` (32Bit) from the start menu.
 2. cd "\teeworldsSource" 
     - Changes to the teeworlds source directory
