@@ -21,9 +21,9 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 2. Download and unzip [Teeworlds](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
 3. Download and unzip bam to `/teeworldsSource/bam`
 4. Compiling bam  
-    - $ cd bam
-    - $ ./make_unix.sh
-    - $ cd ..
+    - `$ cd bam`
+    - `$ ./make_unix.sh`
+    - `$ cd ..`
 
 #### Compiling
 2. `cd /teeworldsSource`
