@@ -11,9 +11,9 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 1. Download and install [Visual Studio 2017 Community](https://visualstudio.microsoft.com/de/downloads/).
 
 
-# Compiling Bam
+### Compiling Bam
 
-1. Launch `make_win32_msvc.bat` script to compile bam.
+1. Launch `make_win32_msvc.bat` script to compile bam on 32bit systems and `make_win64_msvc.bat` on 64bit systems.
 
 
 # Windows x64 
