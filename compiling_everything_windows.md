@@ -11,17 +11,13 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 1. Download and install [Visual Studio 2017 Community](https://visualstudio.microsoft.com/de/downloads/).
 
 
-### Compiling Bam
-
-1. Launch `make_win32_msvc.bat` script to compile bam on 32bit systems and `make_win64_msvc.bat` on 64bit systems.
-
-
 # Windows x64 
 #### Setup
 1. Download and unzip [Teeworlds](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
 2. Download and install [Python 3.x](https://www.python.org/download/)
 3. Download and unzip bam to `\teeworldsSource\bam`
-4. Download and unzip [SDL 2.0.8]()
+    - Run `make_win64_msvc.bat` to compile BAM
+4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-2.0.8-win32-x64.zip)
     - Copy `include` and `lib` to \teeworldsSource\other\sdl
     - Copy `SDL2.lib` and `SDL2.main.lib` from `\teeworldsSource\other\sdl\win64` in the root directory`\teeworldsSource`
 5. Download and unzip [Freetype](https://codeload.github.com/ubawurinna/freetype-windows-binaries/zip/master)
@@ -55,7 +51,8 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 1. Download and unzip [Teeworlds-source](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
 2. Download and install [Python 3.x](https://www.python.org/download/)
 3. Download and unzip bam to `\teeworldsSource\bam`
-4. Download and unzip [SDL 2.0.8]()
+    - Run `make_win32_msvc.bat` to compile BAM
+4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-2.0.8-win32-x64.zip)
     - Copy `include` and `lib` to \teeworldsSource\other\sdl
     - Copy `SDL2.lib` and `SDL2.main.lib` from `\teeworldsSource\other\sdl\win32` in the root directory`\teeworldsSource`
 5. Download and unzip [Freetype](https://codeload.github.com/ubawurinna/freetype-windows-binaries/zip/master)
