@@ -47,8 +47,8 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
         - `client_debug`
     - To build the tools and master server in release mode use the following arguments:
         - `conf=release tools masterserver`
-5. The compiled game is located at `\teeworldsSource\build\unknown\...`
-
+5. The compiled game is located at `\teeworldsSource\build\x64\`
+6. To start your compiled game, you need `SDL2.dll` and `freetype.dll`. Copy them from `\teeworldsSource\other\sdl\lib\win64` and `\teeworldsSource\other\freetype\win64` into `\teeworldsSource\build\x64`.
 
 # Windows x86 
 #### Setup
@@ -61,6 +61,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 5. Download and unzip [Freetype](https://codeload.github.com/ubawurinna/freetype-windows-binaries/zip/master)
     - Copy `include`, `win64` and `win32` to `\teeworldsSource\other\freetype`
     - Copy `freetype.lib` from `\teeworldsSource\other\freetype\win32` in the root directory`\teeworldsSource`
+
 
 
 #### Compiling
@@ -81,7 +82,8 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
         - `client_debug`
     - To build the tools and master server in release mode use the following arguments:
         - `conf=release tools masterserver`
-5. The compiled game is located at `\teeworldsSource\build\unknown\...`
+5. The compiled game is located at `\teeworldsSource\build\x86\`
+6. To start your compiled game, you need `SDL2.dll` and `freetype.dll`. Copy them from `\teeworldsSource\other\sdl\lib\win32` and `\teeworldsSource\other\freetype\win32` into `\teeworldsSource\build\x86`.
 
     
 
