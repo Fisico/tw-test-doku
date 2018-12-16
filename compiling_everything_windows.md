@@ -1,6 +1,6 @@
 # Compiling Teeworlds on Windows
 
-**IMPORTANT NOTE:** SDL and Freetype libs are not shipped with Teeworlds 0.7.x. You must download them separately and place them in the other/ folder.
+**IMPORTANT NOTE:** SDL and Freetype libs are not shipped with Teeworlds 0.7.x. You must download them separately and place them in the other\ folder.
 
 **Q: What is BAM?**
 
@@ -87,7 +87,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 
     
 
-#### For Teeworlds v0.6.x and earlier
+# For Teeworlds v0.6.x and earlier
 
 Available targets are:
 
