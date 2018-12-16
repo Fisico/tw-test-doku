@@ -1,4 +1,4 @@
-# Compiling Teeworlds 0.7.x
+# Compiling Teeworlds on Windows
 
 **IMPORTANT NOTE:** SDL and Freetype libs are not shipped with Teeworlds 0.7.x. You must download them separately and place them in the other/ folder.
 
@@ -84,3 +84,23 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 5. The compiled game is located at `\teeworldsSource\build\unknown\...`
 
     
+
+#### For Teeworlds v0.6.x and earlier
+
+Available targets are:
+
++ release (for all in release mode)
++ debug (for all in debug mode)
++ server_release
++ server_debug
++ client_release
++ client_debug
+
+E.g. to build server debug use the following arguments:
+
+`..\bam\bam server_debug`
+
+**Also:** Teeworlds 0.5.2 and earlier requires python 2.x to compile. Python 3.x will not work. Python 3.x support is introduced with Teeworlds 0.6.0.
+
+**Also:** If you are using bam 0.2.0 (needed for Teeworlds 0.5.2 and earlier) the bam binary will not be in the bam directory, but in bam/src. You will need to change the paths accordingly to that or copy/move the bam executable to the bam directory.
+
